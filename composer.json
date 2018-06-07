@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-validator",
+    "name": "webino/zend-validator",
     "description": "provides a set of commonly needed validators",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -11,6 +11,9 @@
         "psr-4": {
             "Zend\\Validator\\": "src/"
         }
+    },
+    "replace": {
+        "zendframework/zend-validator": "self.version"
     },
     "require": {
         "php": "^5.6 || ^7.0",
